@@ -1,0 +1,28 @@
+{
+  "name": "dune-bs",
+  "version": "0.1.0",
+  "description": "Build BuckleScript project with dune",
+  "license": "MIT",
+  "esy": {
+    "build": "dune build",
+    "buildsInSource": "_build",
+    "buildEnv": {
+      "DUNE_BSC": "1"
+    }
+  },
+  "scripts": {
+    "step1": "sh -c \"DUNE_BSC=1 esy dune build bin/Hello.bc --verbose\"",
+    "doc": "esy dune build @doc"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@jchavarri/bs-platform": "^7.0.1",
+    "ocaml": "~4.8.1000"
+  },
+  "devDependencies": {
+    "ocaml": "~4.8.1000"
+  },
+  "resolutions": {
+    "@opam/dune": "jchavarri/dune:dune.opam#d29d5f4"
+  }
+}
