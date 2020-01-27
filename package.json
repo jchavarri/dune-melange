@@ -14,12 +14,13 @@
   "dependencies": {
     "@opam/dune": "*",
     "@jchavarri/bs-platform": "^7.0.1",
-    "ocaml": "~4.8.1000"
+    "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0",
+    "ocaml": "~4.6.1000"
   },
   "devDependencies": {
-    "ocaml": "~4.8.1000"
+    "ocaml": "~4.6.1000"
   },
   "resolutions": {
-    "@opam/dune": "jchavarri/dune:dune.opam#cce555d"
+    "@opam/dune": "jchavarri/dune:dune.opam#9d943b5"
   }
 }
