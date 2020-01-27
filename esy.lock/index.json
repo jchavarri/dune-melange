@@ -1,5 +1,5 @@
 {
-  "checksum": "245407ddc30cc0c7701126492426f9a4",
+  "checksum": "30a681b487ab5ce73460a7ec598627cf",
   "root": "dune-bs@link-dev:./package.json",
   "node": {
     "ocaml@4.8.1000@d41d8cd9": {
@@ -28,18 +28,18 @@
       "overrides": [],
       "dependencies": [
         "ocaml@4.8.1000@d41d8cd9",
-        "@opam/dune@github:jchavarri/dune:dune.opam#d29d5f4@d41d8cd9",
+        "@opam/dune@github:jchavarri/dune:dune.opam#cce555d@d41d8cd9",
         "@jchavarri/bs-platform@7.0.1@d41d8cd9"
       ],
       "devDependencies": [ "ocaml@4.8.1000@d41d8cd9" ]
     },
-    "@opam/dune@github:jchavarri/dune:dune.opam#d29d5f4@d41d8cd9": {
-      "id": "@opam/dune@github:jchavarri/dune:dune.opam#d29d5f4@d41d8cd9",
+    "@opam/dune@github:jchavarri/dune:dune.opam#cce555d@d41d8cd9": {
+      "id": "@opam/dune@github:jchavarri/dune:dune.opam#cce555d@d41d8cd9",
       "name": "@opam/dune",
-      "version": "github:jchavarri/dune:dune.opam#d29d5f4",
+      "version": "github:jchavarri/dune:dune.opam#cce555d",
       "source": {
         "type": "install",
-        "source": [ "github:jchavarri/dune:dune.opam#d29d5f4" ]
+        "source": [ "github:jchavarri/dune:dune.opam#cce555d" ]
       },
       "overrides": [],
       "dependencies": [

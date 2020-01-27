@@ -5,10 +5,7 @@
   "license": "MIT",
   "esy": {
     "build": "dune build",
-    "buildsInSource": "_build",
-    "buildEnv": {
-      "DUNE_BSC": "1"
-    }
+    "buildsInSource": "_build"
   },
   "scripts": {
     "step1": "sh -c \"DUNE_BSC=1 esy dune build bin/Hello.bc --verbose\"",
@@ -23,6 +20,6 @@
     "ocaml": "~4.8.1000"
   },
   "resolutions": {
-    "@opam/dune": "jchavarri/dune:dune.opam#d29d5f4"
+    "@opam/dune": "jchavarri/dune:dune.opam#cce555d"
   }
 }
