@@ -1,2 +1,6 @@
 (executable
   (name Hello))
+
+(alias
+  (name install)
+  (deps ../bsconfig.json))
