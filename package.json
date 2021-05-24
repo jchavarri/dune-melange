@@ -17,6 +17,6 @@
     "@opam/ocaml-lsp-server": "*"
   },
   "resolutions": {
-    "@opam/dune": "link:../dune/dune.opam"
+    "@opam/dune": "jchavarri/dune:dune.opam#19ee819"
   }
 }
