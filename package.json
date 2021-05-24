@@ -1,7 +1,7 @@
 {
   "name": "dune-bs",
   "version": "0.1.0",
-  "description": "Build BuckleScript project with dune",
+  "description": "Build Melange project with dune",
   "license": "MIT",
   "esy": {
     "build": "dune build",
@@ -12,15 +12,11 @@
     "doc": "esy dune build @doc"
   },
   "dependencies": {
-    "@opam/dune": "*",
-    "@jchavarri/bs-platform": "^7.0.1",
-    "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0",
-    "ocaml": "~4.6.1000"
-  },
-  "devDependencies": {
-    "ocaml": "~4.6.1000"
+    "ocaml": "4.12.x",
+    "melange": "melange-re/melange",
+    "@opam/ocaml-lsp-server": "*"
   },
   "resolutions": {
-    "@opam/dune": "jchavarri/dune:dune.opam#9d943b5"
+    "@opam/dune": "link:../dune/dune.opam"
   }
 }
