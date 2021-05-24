@@ -1,6 +1,6 @@
 # dune-bs
 
-This is a development setup to explore and experiment around the integration of Dune with BuckleScript `bsc`
+This is a development setup to explore and experiment around the integration of Dune with [Melange](https://github.com/melange-re/melange/) `bsc`
 compilation tool.
 
 For more context, see: https://github.com/ocaml/dune/issues/140.
@@ -13,7 +13,7 @@ You need Esy, you can install the beta using [npm](https://npmjs.com):
 npm install -g esy
 ```
 
-> NOTE: Make sure `esy --version` returns at least `0.6.0` for this project to build.
+> NOTE: Make sure `esy --version` returns at least `0.6.8` for this project to build.
 
 Then run the `esy` command from this project root to install and build dependencies.
 
@@ -32,7 +32,7 @@ After running `esy` to download dependencies and build them, run
 esy step1
 ```
 
-Which will attempt to build `bin/Hello.ml` with `dune` and `bsc` (still wip).
+Which will build `bin/Hello.ml` with `dune` and `bsc` (still wip).
 
 We will add more steps with more complex cases over time (with Reason syntax, with ppx, with libraries...).
 
