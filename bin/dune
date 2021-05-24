@@ -1,5 +1,7 @@
-(executable
-  (name Hello))
+(library
+  (name main)
+  (modes byte)
+  (public_name dune-bs))
 
 (alias
   (name install)

@@ -4,11 +4,10 @@
   "description": "Build Melange project with dune",
   "license": "MIT",
   "esy": {
-    "build": "dune build",
     "buildsInSource": "_build"
   },
   "scripts": {
-    "step1": "sh -c \"DUNE_BSC=1 esy dune build bin/Hello.bc --verbose\"",
+    "step1": "sh -c \"DUNE_BSC=1 esy dune build -p dune-bs --verbose\"",
     "doc": "esy dune build @doc"
   },
   "dependencies": {
@@ -17,6 +16,6 @@
     "@opam/ocaml-lsp-server": "*"
   },
   "resolutions": {
-    "@opam/dune": "jchavarri/dune:dune.opam#19ee819"
+    "@opam/dune": "jchavarri/dune:dune.opam#bcd08cd"
   }
 }
